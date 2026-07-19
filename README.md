@@ -7,9 +7,9 @@ de autoconsumo solar del Centro Comercial Prado de Somosaguas.
 
 - `index.html` - landing principal
 - `style.css` - estilos
-- `script.js` - menu movil, formulario de contacto (mailto) y banner de cookies
+- `script.js` - menu movil, pestanas del plano, formulario de contacto (mailto) y banner de cookies
 - `aviso-legal.html`, `politica-privacidad.html`, `politica-cookies.html` - paginas legales
-- `img/` - favicon y logo
+- `img/` - favicon, logo y plano del centro
 
 ## Subirlo a GitHub
 
