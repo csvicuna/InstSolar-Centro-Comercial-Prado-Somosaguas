@@ -21,6 +21,7 @@
     <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">&#9776;</button>
     <nav class="main-nav" id="main-nav">
       <a href="#centro">El centro</a>
+      <a href="#plano">Plano</a>
       <a href="#instalacion">Instalación</a>
       <a href="#fases">Fases</a>
       <a href="#beneficios">Beneficios</a>
@@ -67,6 +68,46 @@
     </div>
   </section>
 
+  <section id="plano">
+    <h2>Plano y directorio de locales</h2>
+    <p class="section-lead">Distribución actual del centro comercial, con los 22 números de local repartidos entre 17 negocios.</p>
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" id="tab-btn-esquema" role="tab" aria-selected="true" aria-controls="tab-esquema">Plano esquemático</button>
+      <button class="tab-btn" id="tab-btn-directorio" role="tab" aria-selected="false" aria-controls="tab-directorio">Directorio numerado</button>
+    </div>
+    <div class="tab-panel active" id="tab-esquema" role="tabpanel">
+      <div class="diagram-box">
+        <img src="img/plano-centro.svg" alt="Plano esquemático del centro comercial con la posición de cada local numerado" style="width:100%; height:auto; display:block;">
+      </div>
+    </div>
+    <div class="tab-panel" id="tab-directorio" role="tabpanel" hidden>
+      <div class="diagram-box" style="padding:0; overflow:hidden;">
+        <table class="directory-table">
+          <thead><tr><th>Nº</th><th>Local</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Supermercado La Despensa</td></tr>
+            <tr><td>2</td><td>Mesón-Cafetería Miranda</td></tr>
+            <tr><td>3.4.6</td><td>Banco Santander</td></tr>
+            <tr><td>5</td><td>Cafetería Panadería Panod</td></tr>
+            <tr><td>7.8</td><td>Clínica Dental Somosaguas</td></tr>
+            <tr><td>9</td><td>Cafetería Restaurante Gourmetón</td></tr>
+            <tr><td>10.11</td><td>Cafetería Heladería Baralia</td></tr>
+            <tr><td>12.13</td><td>Agencia Inmobiliaria Inmobaralia</td></tr>
+            <tr><td>14</td><td>Loterías, Apuestas y Chuches</td></tr>
+            <tr><td>15</td><td>Farmacia Prado de Somosaguas</td></tr>
+            <tr><td>15-A</td><td>El Fogón de la Abuela</td></tr>
+            <tr><td>16</td><td>Autoescuela Salinas</td></tr>
+            <tr><td>17.18</td><td>Clínica Veterinaria P. Somosaguas</td></tr>
+            <tr><td>19</td><td>GEA Beauty Center</td></tr>
+            <tr><td>20</td><td>Vino La Finca</td></tr>
+            <tr><td>21</td><td>Peluquería Señorita Amapola</td></tr>
+            <tr><td>22</td><td>Centro de Bienestar</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
   <section id="tejado">
     <h2>Por qué este tejado es ideal</h2>
     <p class="section-lead">La cubierta está formada por 7 naves paralelas con un ligero perfil en diente de sierra: cada sección tiene su borde sur a nivel de techo y su borde norte elevado 70-80 cm, lo que deja entrar luz natural sin generar sombras entre módulos. El borde bajo de cada nave mira prácticamente al sur.</p>
@@ -76,7 +117,7 @@
         <line x1="10" y1="34" x2="890" y2="34" stroke="#c9c2ae" stroke-width="1"/>
         <line x1="10" y1="30" x2="10" y2="38" stroke="#c9c2ae" stroke-width="1"/>
         <line x1="890" y1="30" x2="890" y2="38" stroke="#c9c2ae" stroke-width="1"/>
-        <text x="30" y="235" text-anchor="middle" font-size="13" fill="#5b6772" transform="rotate(-90 30 235)">38 m</text>
+        <text x="30" y="235" text-anchor="middle" font-size="13" fill="#5b6772" transform="rotate(-90 30 235)">23,5 m</text>
 
         <g transform="translate(50,50)">
           <rect x="0"    y="0" width="114.3" height="360" fill="#FAF7F0" stroke="#c9c2ae"/>
@@ -111,7 +152,7 @@
         </g>
       </svg>
       <div class="legend">
-        <span><span class="swatch" style="background:#fdf0da"></span>Zona prevista para paneles (~600-700 m², un cuarto de cubierta aprox.)</span>
+        <span><span class="swatch" style="background:#fdf0da"></span>Zona prevista para paneles (~600-700 m², en torno a un tercio de la cubierta)</span>
         <span><span class="swatch" style="background:#FAF7F0"></span>Resto de cubierta</span>
       </div>
     </div>

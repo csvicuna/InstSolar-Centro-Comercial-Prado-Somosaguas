@@ -42,6 +42,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  var tabButtons = document.querySelectorAll(".tab-btn");
+  tabButtons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      tabButtons.forEach(function (b) {
+        b.classList.remove("active");
+        b.setAttribute("aria-selected", "false");
+      });
+      btn.classList.add("active");
+      btn.setAttribute("aria-selected", "true");
+
+      var panelId = btn.getAttribute("aria-controls");
+      document.querySelectorAll(".tab-panel").forEach(function (panel) {
+        panel.hidden = panel.id !== panelId;
+      });
+    });
+  });
+
   var cookieBanner = document.getElementById("cookie-banner");
   var cookieAccept = document.getElementById("cookie-accept");
   var cookieReject = document.getElementById("cookie-reject");
