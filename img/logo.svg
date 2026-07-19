@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 410">
+  <defs>
+    <linearGradient id="sunGrad2" x1="60" y1="20" x2="220" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD24C"/>
+      <stop offset="0.55" stop-color="#F5A623"/>
+      <stop offset="1" stop-color="#E2761B"/>
+    </linearGradient>
+  </defs>
+  <polygon points="140.00,20.00 161.43,68.26 210.71,49.29 191.74,98.57 240.00,120.00 191.74,141.43 210.71,190.71 161.43,171.74 140.00,220.00 118.57,171.74 69.29,190.71 88.26,141.43 40.00,120.00 88.26,98.57 69.29,49.29 118.57,68.26"
+    fill="url(#sunGrad2)"/>
+  <polygon points="95,235 35,300 155,300" fill="#8B3A2E" stroke="#1c1c1c" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="140,232 80,300 200,300" fill="#6B5C1E" stroke="#1c1c1c" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="185,235 125,300 245,300" fill="#D98F7E" stroke="#1c1c1c" stroke-width="4" stroke-linejoin="round"/>
+  <text x="140" y="352" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="46" fill="#2C3E50">Smartfot</text>
+  <text x="140" y="398" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="46" fill="#2C3E50">Solar</text>
+</svg>
